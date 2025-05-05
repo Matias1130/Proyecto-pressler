@@ -1,0 +1,159 @@
+body{
+    background-color: rgba(0, 0, 0, 0.082);
+}
+
+/*Estilos Header*/
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.068);
+}
+
+.ul__nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.li__nav{
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.imagen__logo {
+    width: 15%;
+}
+
+
+.link{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    transition: 0.8s ease;
+}
+
+
+.link:hover {
+    transform: scale(1.1);
+    color: #010aa7;
+}
+
+
+/*Estilos main*/
+
+.div__main{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.041);
+}
+.section__img {
+    background-image: url('/imagen/1.jpg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    border-radius: 5px;
+    
+}
+
+.div__encabezado{
+    padding: 300px;
+}
+
+.encabezado{
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: rgb(219, 219, 219);
+    position: relative;
+    
+}
+
+.section__servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 500px;
+}
+
+.titulo__servicios{
+    font-size: 40px;
+    
+    font-weight: bolder;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.linea__divisoria{
+    background-color: #02053a;
+    height: 3px;
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.div__section__primero{
+    margin-top: 130px;
+    display: flex;
+}
+
+.imagen__servicios{
+    width: 50%;
+    border-radius: 15px;
+    margin-right: 20px;
+    box-shadow: 0 0 13px black;
+}
+
+.div__ul__servicios{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.titulo__tratamiento{
+    color: #02053a;
+}
+
+.explicacion{
+    font-size: 20px;
+    color: #414141ec;
+}
+
+.li__servicios{
+    padding: 10px;
+    font-weight: bolder;
+}
+
+
+
+.whatsapp-float {
+    position: fixed; /* Lo fija a la ventana del navegador */
+    bottom: 20px; /* Lo posiciona a 20px del borde inferior */
+    right: 20px; /* Lo posiciona a 20px del borde derecho */
+    z-index: 999; /* Asegura que esté por encima de otros elementos */
+    display: flex; /* Para centrar la imagen */
+    justify-content: center;
+    align-items: center;
+    width: 60px; /* Ancho del botón */
+    height: 60px; /* Alto del botón */
+    background-color: #25D366; /* Color verde de WhatsApp */
+    color: white;
+    border-radius: 50%; /* Lo hace circular */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra suave */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    transition: all 0.3s ease-in-out; /* Animación suave */
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1); /* Ligeramente más grande al pasar el mouse */
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+.whatsapp-float img {
+    width: 40px; /* Tamaño del logo de WhatsApp dentro del botón */
+    height: 40px;
+}
