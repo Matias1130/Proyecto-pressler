@@ -50,7 +50,7 @@ body{
     background-color: rgba(0, 0, 0, 0.041);
 }
 .section__img {
-    background-image: url('/imagen/fondo.png');
+    background-image: url('imagen/fondo.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
