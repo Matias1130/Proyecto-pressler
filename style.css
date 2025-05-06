@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.068);
+    background-color: rgba(255, 255, 255, 0.068);
 }
 
 .ul__nav{
@@ -47,7 +47,7 @@ body{
 
 .div__main{
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.041);
+    background-color: rgba(255, 255, 255, 0.041);
 }
 .section__img {
     background-image: url('assets/fondo.png');
@@ -64,7 +64,6 @@ body{
 }
 
 .encabezado{
-    font-family:'Times New Roman', Times, serif;
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.548);
     color: rgb(219, 219, 219);
@@ -83,7 +82,6 @@ body{
 
 .titulo__servicios{
     font-size: 40px;
-    
     font-weight: bolder;
     padding: 20px;
     margin-bottom: 10px;
@@ -96,10 +94,15 @@ body{
     margin-bottom: 20px;
 }
 
+.div__subtitulo__servicios{
+    margin-bottom: 30px;
+}
+
 .div__section__primero{
-    margin-top: 130px;
+    margin-top: 50px;
     display: flex;
 }
+
 
 .imagen__servicios{
     width: 50%;
@@ -111,7 +114,9 @@ body{
 .div__ul__servicios{
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 
 .titulo__tratamiento{
@@ -119,15 +124,38 @@ body{
 }
 
 .explicacion{
-    font-size: 20px;
+    font-size: 23px;
     color: #414141ec;
+    text-align: center;
+}
+
+.ul__servicios{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .li__servicios{
+    font-size: 25px;
     padding: 10px;
     font-weight: bolder;
+    list-style-type: none;
+    text-transform: uppercase;
 }
 
+.img__termica{
+    object-fit: cover;
+}
+
+.div__termicos{
+    display: flex;
+}
+
+.termicos{
+    font-size: 14px;
+    text-align: center;
+}
 
 
 .whatsapp-float {
