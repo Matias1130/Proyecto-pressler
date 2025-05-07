@@ -11,23 +11,23 @@
 </head>
 
 <body>
-    <header class="header">
+    <header>
         <nav class="navbar">
             <div>
                 <img class="imagen__logo" src="assets/sin-fondo.png" alt="">
             </div>
             <div>
                 <ul class="ul__nav">
-                    <li class="li__nav navegacion">Inicio</li>
+                    <li class="li__nav navegacion"><a class="link" href="#inicio">Inicio</a></li>
                     <li class="li__nav navegacion"><a class="link" href="#servicios">Servicios</a></li>
-                    <li class="li__nav navegacion">Nosotros</li>
-                    <li class="li__nav navegacion">contacto</li>
+                    <li class="li__nav navegacion"><a class="link" href="#nosotros">Nosotros</a></li>
+                    <li class="li__nav navegacion">Contacto</li>
                 </ul>
             </div>
         </nav>
     </header>
     <main>
-        <div class="div__main">
+        <div class="div__main" id="inicio">
             <section class="section__img">
                 <div class="div__encabezado">
                     <h1 class="encabezado">PRESSLER Experiencia, tecnología y compromiso para la industria Metalúrgica
@@ -35,74 +35,198 @@
                 </div>
             </section>
         </div>
-        <div class="container">
+        <div class="div__secciones">
+            <h2 class="titulo__servicios" id="servicios">NUESTROS SERVICIOS</h2>
+        </div>
+        <div class="container main">
             <section class="section__servicios">
-                <h2 class="titulo__servicios" id="servicios">Nuestros Servicios</h2>
-                <div class="linea__divisoria"></div>
-                <div class="div__subtitulo__servicios">
-                    <h3>Optimizamos las propiedades de las piezas metálicas mejorando su dureza, resistencia y
-                        durabilidad, con trazabilidad y calidad garantizadas en cada etapa.</h3>
-                </div>
-                <h2 class="titulo__tratamiento">TRATAMIENTOS PARA MOLDES DE INYECCION DE ALUMINIO Y MATRICES
-                </h2>
-                <div class="container div__section__primero">
-                    <img src="./assets/Tratamientos para moldes de inyección de aluminio y matrices.jpg"
-                        class="imagen__servicios">
-                    <div class="div__ul__servicios">
-                        <br>
-                        <h3 class="explicacion">Mejoramos la dureza, resistencia y comportamiento estructural de piezas
-                            metálicas, asegurando un rendimiento óptimo en condiciones de trabajo exigentes.</h3>
-                        <br>
-                        <br>
-                        <ul class="ul__servicios">
-                            <li class="li__servicios">Distensionado inicial</li>
-                            <li class="li__servicios">Temple y triple revenido</li>
-                            <li class="li__servicios">Oxidación controlada </li>
-                            <li class="li__servicios">Ensayos metalográficos</li>
-                            <li class="li__servicios">Nitrurado</li>
-                            <li class="li__servicios">Distensionados de mantenimiento</li>
-                        </ul>
-                    </div>
-                </div>
-                <br>
-                <br>
                 <h2 class="titulo__tratamiento">TRATAMIENTOS TERMICOS</h2>
                 <div class="div__termicos">
                     <div class="container div__section__primero">
-                        <img src="./assets/imagen-section-1.jpg" class="imagen__servicios img__termica">
-                        <div class="div__ul__servicios">
-                            <br>
-                            <ul class="ul__servicios">
-                                <li class="li__servicios termicos">Austempering:(Tratamiento isotérmico que mejora la
-                                    tenacidad y reduce distorsiones en aceros de medio y alto carbono)</li>
-                                <li class="li__servicios termicos">Martempering: (Proceso que reduce tensiones internas
-                                    y riesgos de agrietamiento, manteniendo alta dureza)</li>
-                                <li class="li__servicios termicos">Temple y Revenido: (Aumento de dureza seguido de un
-                                    revenido para mejorar la resistencia a impactos y la estabilidad)</li>
-                                <li class="li__servicios termicos">Nitrurado: (Incremento de dureza superficial sin
-                                    deformación estructural, ideal para componentes sometidos a desgaste)</li>
-                                <li class="li__servicios termicos">Bonificado: (Combinación de temple y revenido con
-                                    características mecánicas equilibradas para piezas estructurales)</li>
-                                <li class="li__servicios termicos">Distensionado: (Eliminación de tensiones internas
-                                    acumuladas por mecanizado o soldadura)</li>
-                                <li class="li__servicios termicos">Oxidación controlada: (Tratamiento superficial para
-                                    mejorar la resistencia a la corrosión y la fricción)</li>
-                                <li class="li__servicios termicos">Recocido: (Mejora la maquinabilidad y estabilidad
-                                    dimensional del material)</li>
-                                <li class="li__servicios termicos">Normalizado: (Proceso para homogenizar estructura
-                                    interna y mejorar propiedades mecánicas)</li>
-                                <li class="li__servicios termicos">Cementado: (Endurecimiento superficial con núcleo
-                                    tenaz, ideal para componentes de alta fricción)</li>
-                                <li class="li__servicios termicos">Carbonitrurado: (Tratamiento termoquímico para
-                                    mejorar dureza superficial y resistencia al desgaste)</li>
-                            </ul>
+                        <div class="div__tratamiento__termico">
+                            <h3 class="titulo__termico">Austempering</h3>
+                            <h4 class="subtitulo__termico explicacion">Tratamiento isotérmico que mejora la tenacidad y
+                                reduce
+                                distorsiones en aceros de medio y alto carbono</h4>
+                            <h3 class="titulo__termico">Martempering</h3>
+                            <h4 class="subtitulo__termico explicacion">Proceso que reduce tensiones internas y riesgos
+                                de agrietamiento, manteniendo alta dureza</h4>
+                            <h3 class="titulo__termico">Temple y Revenido</h3>
+                            <h4 class="subtitulo__termico explicacion">Aumento de dureza seguido de un revenido para
+                                mejorar la resistencia a impactos y la estabilidad</h4>
+                            <h3 class="titulo__termico">Nitrurado</h3>
+                            <h4 class="subtitulo__termico explicacion">Incremento de dureza superficial sin deformación
+                                estructural, ideal para componentes sometidos a desgaste</h4>
+                            <h3 class="titulo__termico">Bonificado</h3>
+                            <h4 class="subtitulo__termico explicacion">Combinación de temple y revenido con
+                                características mecánicas equilibradas para piezas estructurales</h4>
+                            <h3 class="titulo__termico">Distensionado</h3>
+                            <h4 class="subtitulo__termico explicacion">Eliminación de tensiones internas acumuladas por
+                                mecanizado o soldadura</h4>
+                            <h3 class="titulo__termico">Oxidación controlada</h3>
+                            <h4 class="subtitulo__termico explicacion">Tratamiento superficial para mejorar la
+                                resistencia a la corrosión y la fricción</h4>
+                            <h3 class="titulo__termico">Recocido</h3>
+                            <h4 class="subtitulo__termico explicacion">Mejora la maquinabilidad y estabilidad
+                                dimensional del material</h4>
+                            <h3 class="titulo__termico">Normalizado</h3>
+                            <h4 class="subtitulo__termico explicacion">Proceso para homogenizar estructura interna y
+                                mejorar propiedades mecánicas</h4>
+                            <h3 class="titulo__termico">Cementado</h3>
+                            <h4 class="subtitulo__termico explicacion">Endurecimiento superficial con núcleo tenaz,
+                                ideal para componentes de alta fricción</h4>
+                            <h3 class="titulo__termico">Carbonitrurado</h3>
+                            <h4 class="subtitulo__termico explicacion">Tratamiento termoquímico para mejorar dureza
+                                superficial y resistencia al desgaste</h4>
                         </div>
                     </div>
                 </div>
             </section>
         </div>
+        <div class="container main">
+            <section class="section__servicios">
+                <h2 class="titulo__tratamiento">TRATAMIENTOS PARA MOLDES DE INYECCION DE ALUMINIO Y MATRICES
+                </h2>
+                <div class="container div__section__primero">
+                    <div class="div__ul__servicios">
+                        <br>
+                        <h3 class="explicacion">mejoramos la dureza, resistencia y comportamiento estructural de piezas
+                            metálicas, asegurando un rendimiento óptimo en condiciones de trabajo exigentes.</h3>
+                        <br>
+                        <br>
+                        <ul class="ul__servicios">
+                            <li class="li__servicios">Nitrurado</li>
+                            <li class="li__servicios">Distensionado inicial</li>
+                            <li class="li__servicios">Temple y triple revenido</li>
+                            <li class="li__servicios">Oxidación controlada </li>
+                            <li class="li__servicios">Ensayos metalográficos</li>
+                            <li class="li__servicios">Distensionados de mantenimiento</li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+            </section>
+        </div>
+        <div class="container main">
+            <section class="section__servicios">
+                <h2 class="titulo__tratamiento">LABORATORIO PROPIO
+                </h2>
+                <div class="container div__section__primero">
+                    <div class="div__ul__servicios">
+                        <br>
+                        <h3 class="explicacion">Contamos con un laboratorio técnico totalmente equipado para</h3>
+                        <br>
+                        <br>
+                        <ul class="ul__servicios">
+                            <li class="li__servicios">Ensayos de dureza</li>
+                            <li class="li__servicios">Estudios metalográficos</li>
+                            <li class="li__servicios">Inspección de microestructura</li>
+                            <li class="li__servicios">Seguimiento térmico con termopares </li>
+                        </ul>
+                        <p class="explicacion">Cumplimos normas técnicas nacionales e internacionales, incluyendo ISO
+                            9001 (Gestión de la calidad), procesos en atmósfera controlada y estrictos controles
+                            internos para garantizar resultados consistentes.</p>
+                    </div>
+                </div>
+                <br>
+            </section>
+        </div>
+        <div class="container main">
+            <section class="section__servicios">
+                <br>
+                <br>
+                <h2 class="titulo__tratamiento">CALIDAD
+                </h2>
+                <div class="container div__section__primero">
+                    <div class="div__ul__servicios">
+                        <br>
+                        <h3 class="explicacion">En Pressler Tratamientos Térmicos trabajamos bajo estrictos controles de
+                            calidad, garantizando procesos trazables, repetibles y validados según normas nacionales e
+                            internacionales. Combinamos atención personalizada con tecnología de vanguardia, asegurando
+                            la durabilidad de cada componente tratado.</h3>
+                        <br>
+                        <br>
+                        <ul class="ul__servicios">
+                            <li class="li__servicios">Cumplimiento de la norma ISO 9001</li>
+                            <li class="li__servicios">Procesos sustentables y responsables con el medio ambiente</li>
+                            <li class="li__servicios">Tecnología actualizada y controlada en tiempo real</li>
+                        </ul>
+                        <h2 class="titulo__tratamiento">Controles aplicados:</h2>
+                        <ul class="ul__servicios">
+                            <li class="li__servicios">Ensayos metalográficos</li>
+                            <li class="li__servicios">Ensayos de dureza (Rockwell, Brinell, Vickers)</li>
+                            <li class="li__servicios">Seguimiento térmico con termopares</li>
+                            <li class="li__servicios">Control dimensional</li>
+                            <li class="li__servicios">Trazabilidad por lote y pieza</li>
+                        </ul>
+                    </div>
+                </div>
+                <br>
+            </section>
+        </div>
+        <br>
+        <br>
+        <div class="div__secciones">
+            <h2 class="titulo__servicios" id="servicios">CLIENTES</h2>
+        </div>
+        <div class="container main">
+            <section class="section__servicios">
+                <h2 class="titulo__tratamiento">SIEMPRE AL SERVICIO DE LA INDUSTRIA ARGENTINA
+                </h2>
+                <br>
+                <br>
+                <br>
+                <h3 class="explicacion">"Enfocados en impulsar la excelencia de su producción, ofrecemos soluciones
+                    especializadas para industrias clave como la automotriz, proveyendo moldes y matrices de alta
+                    precisión para fundición de aluminio e inyección de plástico. Servimos también a los sectores
+                    petroquímico y energético, al ferroviario con componentes esenciales, a la aeronáutica y defensa con
+                    piezas para mantenimiento y reparación, a la exigente industria de herramientas y aceros especiales,
+                    y a la agrícola y de maquinaria pesada con componentes diseñados para resistir el desgaste y las
+                    cargas mecánicas más demandantes. Nuestra experiencia y tecnología están al servicio de sus desafíos
+                    industriales."</h3>
+                <br>
+                <div class="div__imagenes__clientes">
+                    <video class="video_clientes" src="./assets/video.mp4" autoplay muted loop></video>
+                </div>
+                <br>
+                <br>
+                <br>
+            </section>
+        </div>
+        <br>
+        <br>
+        <div class="div__secciones">
+            <h2 class="titulo__servicios" id="nosotros">NOSOTROS</h2>
+        </div>
+        <br>
+        <br>
+        <div class="container main">
+            <h3 class="explicacion">Desde 1959, Pressler ha evolucionado con una visión clara: ofrecer tratamientos
+                térmicos
+                de excelencia. Fundada en Lanús Oeste, la empresa ha crecido de forma sostenida incorporando tecnología
+                de
+                vanguardia, ampliando su infraestructura y desarrollando procesos con trazabilidad y control de calidad.
+            </h3>
+            <div class="div__imagen__nosotros">
+                <img class="imagen_clientes" src="./assets/imagen3.jpg" alt="">
+                <img class="imagen_clientes" src="./assets/imagen4.jpg" alt="">
+            </div>
+            <br>
+            <h3 class="explicacion">En los años 70 modernizamos nuestra planta y nos convertimos en pioneros en el uso
+                de gas natural para nuestros hornos, mejorando la eficiencia y el compromiso ambiental. Durante las
+                décadas siguientes, sumamos hornos especializados, equipos de cementación gaseosa y un laboratorio
+                metalográfico de alta precisión, logrando importantes homologaciones, como la de Renault Argentina.</h3>
+            <div class="div__imagen__nosotros">
+                <img class="imagen_clientes" src="./assets/imagen5.jpg" alt="">
+                <img class="imagen_clientes" src="./assets/imagen6.jpg" alt="">
+            </div>
+        </div>
     </main>
-    <footer></footer>
+    <footer>
+        <div class="div__secciones">
+            <h4 class="explicacion">© 2025 PRESSLER. Todos los derechos reservados.</h4>
+        </div>
+    </footer>
     <a href="https://wa.me/TU_NUMERO_DE_TELEFONO" class="whatsapp-float" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png"
             alt="WhatsApp">
