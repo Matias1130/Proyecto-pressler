@@ -33,6 +33,18 @@ body {
     z-index: 100;
 }
 
+.div__nav__img{
+    display: flex;
+
+}
+
+.pressler__img{
+    font-size: 40px;
+    color: rgb(0, 0, 95);
+    top: 10px;
+    position: relative;
+}
+
 .ul__nav {
     display: flex;
     justify-content: space-around;
@@ -135,7 +147,7 @@ body {
 }
 
 .explicacion {
-    font-size: 23px;
+    font-size: 17px;
     color: #ffffffec;
     text-align: center;
 }
@@ -155,6 +167,17 @@ body {
     color: aliceblue;
 }
 
+.div__servicios{
+    display: flex;
+    flex-direction: column;
+}
+
+.lista__servicio{
+    list-style-type: none;
+    text-align: center;
+}
+
+
 .img__termica {
     object-fit: cover;
 }
@@ -171,7 +194,7 @@ body {
 }
 
 .titulo__termico {
-    font-size: 35px;
+    font-size: 20px;
     text-transform: uppercase;
     padding-top: 15px;
     color: #ffffff;
@@ -179,7 +202,7 @@ body {
 
 .subtitulo__termico {
     text-align: center;
-    font-size: 23px;
+    font-size: 17px;
 }
 
 .div__imagenes__clientes{
@@ -213,10 +236,10 @@ body {
 .custom-caption {
     background-color: rgba(0, 0, 0, 0.678); /* gris oscuro transparente */
     color: white;
-    padding: 40px;
+    padding: 0px;
     border-radius: 10px;
-    font-size: 40px;
     font-weight: 500;
+    bottom: auto !important ;
   }
   
   .carousel-caption {
@@ -229,24 +252,35 @@ body {
     font-size: 50px;
   }
 
+  .div__footer{
+    display: flex;
+    background-color: #00000096;
+    justify-content: space-between;
+  }
+
   .listado__contacto{
     color:#ffffff;
     list-style-type: none;
-    padding: 20px;
-    font-size: 26px;
+    font-size: 16px;
   }
 
   .div__contacto__principal{
     display: flex;
+    align-items: center;
     justify-content: space-around;
   }
 
 .div__mapa{
     padding: 20px;
+    margin-left: 140px;
 }
 
 .mapa{
     border-radius: 10px;
+}
+
+.texto__carrusel{
+    font-size: 20px;
 }
 
 .whatsapp-float {
