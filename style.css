@@ -17,20 +17,17 @@ body {
 
 /*Estilos Header*/
 
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #d6d6d6de;
+    top: 0;
+    z-index: 100;
+}
 .header {
     background-color: #d6d6d69d;
     margin-top: 0 !important;
     padding-top: 0 !important;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #d6d6d69d;
-    position: sticky;
-    top: 0;
-    z-index: 100;
 }
 
 .div__nav__img{
@@ -228,7 +225,7 @@ body {
 
 .imagen__carrousel{
     width: 600px;
-    height: 500px;
+    height: 100px;
     object-fit: cover;
     box-sizing: border-box;
 }
